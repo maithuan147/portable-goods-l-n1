@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>blog</title>
+</head>
+<body>
+    <header>
+        <div class="header-home-title">
+            <div class="home-padding">
+                <p class="home-header--icon-telephone-before"> &nbsp;0122.222.4002</p>
+                <p class="home-header--icon-location-before"> &nbsp;29/29 Đoàn Thị Điểm, P.1, Q, Phú Nhuận, TP.HCM</p>
+                <a href="#sign-up">Đăng Ký</a>
+                <a href="#sign-in" class="boder-right">Đăng Nhập</a>
+                <form class="home-login">
+                    <div id="sign-in" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="container-fluid">
+                                    <a href="#" class="closebtn">×</a>
+                                    <div class="input--margin-top">
+                                        <label class="icon-email">
+                                            <img src="img/icon-email.png">
+                                            <input type="text" name="Email" placeholder="Email">
+                                        </label>
+                                        <label class="icon-password">
+                                            <img src="img/icon-password.png">
+                                            <input type="text" name="Mật Khẩu" placeholder="Mật Khẩu">
+                                        </label>
+                                        <label>
+                                            <button class="btn-login home--color-white"><a href="file:///C:/xampp/htdocs/portable-goods/home.html">Đăng Nhập</a></button>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="home-padding-small">
+                                    <h4>hoặc</h4>
+                                </div>
+                                <div class="container-fluid">
+                                    <label class="login-fb">
+                                        <img src="img/icon-fb-color-blue.png">
+                                        <button class="btn-login-fb"><a href="https://www.facebook.com/"> Đăng nhập bằng facebook</a></button>
+                                    </label>
+                                </div>
+                                <div class="sign-up">
+                                    <p class="text-center font-weight-bold">Bạn chưa có tài khoản? <a href="#sign-up" class="home--color-pink">Đăng ký ngay</a></p>
+                                </div>
+                                <div class="forgot-password">
+                                    <p><a href="#forgot-password" class="home--color-white">Quên mật khẩu?</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <form class="home-login">
+                    <div id="sign-up" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="container-fluid">
+                                    <a href="#" class="closebtn">×</a>
+                                    <div class="input--margin-top">
+                                        <label class="icon-email">
+                                            <img src="img/icon-email.png">
+                                            <input type="text" name="Email" placeholder="Email">
+                                        </label>
+                                        <label class="icon-password">
+                                            <img src="img/icon-password.png">
+                                            <input type="text" name="Mật Khẩu" placeholder="Mật Khẩu">
+                                        </label>
+                                        <label class="icon-telephone">
+                                            <img src="img/icon-telephone.png">
+                                            <input type="text" name="sdt" placeholder="Số điện thoại">
+                                        </label>
+                                        <label class="icon-name">
+                                            <img src="img/icon-name.png">
+                                            <input type="text" name="Mật Khẩu" placeholder="Họ Tên">
+                                        </label>
+                                        <label>
+                                            <button class="btn-login home--color-white">Đăng Ký</button>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="home-padding-small sign-up-boder-bottom">
+                                    <h4>hoặc</h4>
+                                </div>
+                                <div class="container-fluid">
+                                    <label class="login-fb">
+                                        <img src="img/icon-fb-color-blue.png">
+                                        <button class="btn-login-fb"><a href="https://www.facebook.com/"> Đăng nhập bằng facebook</a></button>
+                                    </label>
+                                </div>
+                                <div class="sign-up">
+                                    <p class="text-center font-weight-bold">Bạn đã có tài khoản? <a href="#sign-in" class="home--color-pink">Đăng nhập ngay</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <form class="home-login">
+                    <div id="forgot-password" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="container-fluid">
+                                    <a href="#" class="closebtn">×</a>
+                                    <div class="input--margin-top">
+                                        <p class="font-weight-bold forgot-password-margin">vui lòng nhập email để lấy lại mật khẩu</p>
+                                        <label class="icon-email">
+                                            <img src="img/icon-email.png">
+                                            <input type="text" name="Email" placeholder="Email">
+                                        </label>
+                                        <label>
+                                            <button class="btn-login home--color-white"><a href="#password-retrieval" class="home--color-white forgot-password-margin-right">LẤY LẠI MẬT KHẨU</a>
+                                            </button>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="sign-up">
+                                    <p class="text-center font-weight-bold">Đã nhớ được mật khẩu?<a href="#sign-in" class="home--color-pink">Đăng nhập</a></p>
+                                </div>
+                                <div class="forgot-password">
+                                    <p><a href="#forgot-password" class="home--color-white">Quên mật khẩu?</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <form class="home-login">
+                    <div id="password-retrieval" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="container-fluid">
+                                    <a href="#" class="closebtn">×</a>
+                                    <div class="password-retrieval__section text-center">
+                                        <p class="font-weight-bold ">Link đặt lại mật khẩu đã được gửi tới email của ban Vui lòng kiểm tra lại hộp thư</p>
+                                        <img src="img/icon-password-retrieval.png">
+                                    </div>
+                                    <div class="input--margin-top">
+                                        <label>
+                                            <button class="btn-login home--color-white"><a href="#understood" class="home--color-white understood-margin-right">ĐÃ HIỂU</a>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <form class="home-login">
+                    <div id="understood" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="container-fluid">
+                                    <a href="#" class="closebtn">×</a>
+                                    <div class="input--margin-top">
+                                        <p class="font-weight-bold forgot-password-margin text-center">vui lòng nhập mật khẩu mới để lấy lại mật khẩu</p>
+                                        <label class="icon-password">
+                                            <img src="img/icon-password.png">
+                                            <input type="text" name="Mật Khẩu" placeholder="Mật Khẩu">
+                                        </label>
+                                        <label class="icon-password">
+                                            <img src="img/icon-password.png">
+                                            <input type="text" name="Mật Khẩu" placeholder="Nhập Lại Mật Khẩu">
+                                        </label>
+                                        <label>
+                                            <button class="btn-login home--color-white"><a href="#password-success" class="home--color-white understood-margin-right">HOÀN TẤT</a>
+                                            </button>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="sign-up">
+                                    <p class="text-center font-weight-bold">Đã nhớ được mật khẩu?<a href="#sign-in" class="home--color-pink">Đăng nhập</a></p>
+                                </div>
+                                <div class="forgot-password">
+                                    <p><a href="#forgot-password" class="home--color-white">Quên mật khẩu?</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <form class="home-login">
+                    <div id="password-success" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="container-fluid">
+                                    <a href="#" class="closebtn">×</a>
+                                    <div class="password-retrieval__section text-center">
+                                        <p class="font-weight-bold password-success-margin1">Lấy lại mật khẩu thành công</p>
+                                        <p class="font-weight-bold password-success-margin2">Vui lòng đăng nhập lại để tiếp tục sử dụng dịch vụ</p>
+                                        <img src="img/icon-password-success.png">
+                                    </div>
+                                    <div class="input--margin-top">
+                                        <label>
+                                            <button class="btn-login home--color-white"><a href="#sign-in" class="home--color-white understood-margin-right">ĐĂNG NHẬP</a>
+                                        </label>
+                                    </div>
+                                    <div class="forgot-password">
+                                    <p><a href="#" class="home--color-white forgot-password-later">Để sau</a></p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <form class="home-login">
+                    <div id="tym" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="container-fluid">
+                                    <a href="#" class="closebtn">×</a>
+                                    <div class="password-retrieval__section text-center">
+                                        <p class="font-weight-bold forgot-password-later">Vui lòng đăng nhập để tiếp tục sử dụng tính năng thêm sản phẩm vào mục ưa thích</p>
+                                        <img src="img/tym-big.png">
+                                    </div>
+                                    <div class="input--margin-top">
+                                        <label>
+                                            <button class="btn-login home--color-white"><a href="#sign-in" class="home--color-white understood-margin-right">ĐĂNG NHẬP</a>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="sign-up">
+                                    <p class="text-center font-weight-bold">Bạn chưa có tài khoản? <a href="#sign-in" class="home--color-pink">Đăng ký ngay</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="header-home-seach">
+            <div class="home-padding">
+                <div class="home-header-bg--icon-seach1 float-left">
+                </div>
+                <div class="home-header-bg--icon-seach1__section float-left">
+                    <h3>Shop Hàng Nhật</h3>
+                    <p>Chuyên Hàng Nội Địa Nhật Bản</p>
+                </div>
+                <div class="nav-item dropdown float-left">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tất cả danh mục</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#one">one</a>
+                        <a class="dropdown-item" href="#two">two</a>
+                        <a class="dropdown-item" href="#three">three</a>
+                    </div>
+                </div>
+                <div class="search-container float-left">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="cart float-right">
+                    <div class="cart--color-white">
+                        <p class="home--color-white"> - 2 món</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="row home-padding">
+                    <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="file:///C:/xampp/htdocs/portable-goods/portable-goods.html">Trang chủ</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="file:///C:/xampp/htdocs/portable-goods/introduce.html">Gioi thiệu</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="file:///C:/xampp/htdocs/portable-goods/shop.html">Cửa Hàng</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link home--color-pink" href="file:///C:/xampp/htdocs/portable-goods/blog.html">Tư Vấn</a>
+                          </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <section class="bog__seciton">
+            <div class="home-padding-small">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <h3>Bài viết mới</h3>
+                            <div class="bog__seciton--boder-bottom"></div>
+                        </div>
+                        <div class="col-sm-4">
+                            <h3>Bài nổi bật</h3>
+                            <div class="bog__seciton--boder-bottom"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="bg-blog">
+                                <img src="img/bg-blog1.png">
+                                <div class="bg-blog__section">
+                                    <h3>Your guide to all things J-Beauty and why it will totally transform your skin</h3>
+                                    <p>Thứ 5, ngày 22, 2018</p>
+                                </div>
+                            </div>
+                            <div class="bg-blog">
+                                <img src="img/bg-blog2.png">
+                                <div class="bg-blog__section">
+                                    <h3>These are the best foundations to try if you're on the hunt for...</h3>
+                                    <p>Thứ 5, ngày 22, 2018</p>
+                                </div>
+                            </div>
+                            <div class="bg-blog">
+                                <img src="img/bg-blog3.png">
+                                <div class="bg-blog__section">
+                                    <h3>The incredible new Olaplex shampoo and conditioner has just launched in the UK...</h3>
+                                    <p>Thứ 5, ngày 22, 2018</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="bg-blog bg-blog-margin-top">
+                                <img src="img/bg-blog4.png">
+                                <div class="bg-blog__section">
+                                    <h3>Here are the five products you saw on this week's Glam Drop</h3>
+                                    <p>Thứ 5, ngày 22, 2018</p>
+                                </div>
+                            </div>
+                            <div class="bg-blog">
+                                <img src="img/bg-blog5.png">
+                                <div class="bg-blog__section">
+                                    <h3>The best eyeshadow palettes to add to your Christmas wishlist this year</h3>
+                                    <p>Thứ 5, ngày 22, 2018</p>
+                                </div>
+                            </div>
+                            <div class="bg-blog">
+                                <img src="img/bg-blog6.png">
+                                <div class="bg-blog__section">
+                                    <h3>Why mandelic acid is the skincare super ingredient your beauty regime has been missing</h3>
+                                    <p>Thứ 5, ngày 22, 2018</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="featured-post">
+                                <div class="bg-featured-post1">
+                                    <div class="featured-post__tite">
+                                        <h3>People with acne can't stop raving about this £12 cream...</h3>
+                                        <p>Thứ 5, ngày 22, 2018</p>
+                                    </div>
+                                </div>
+                                <div class="bg-featured-post2">
+                                    <div class="featured-post__tite">
+                                        <h3>These are the best primers in the business that will ens...</h3>
+                                        <p>Thứ 5, ngày 22, 2018</p>
+                                    </div>
+                                </div>
+                                <div class="bg-featured-post3">
+                                    <div class="featured-post__tite">
+                                        <h3>We asked a lipstick obsessive to try Glossier's Gener...</h3>
+                                        <p>Thứ 5, ngày 22, 2018</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog__section-follow">
+                                <h3>Theo Dõi</h3>
+                                <div class="bog__seciton--boder-bottom"></div>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <a href="#"><img src="img/img-blog-fb.png"></a>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <a href="#"><img src="img/img-blog-in.png"></a>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <a href="#"><img src="img/img-blog-tw.png"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="shop-pagination">
+           <nav aria-label="...">
+                <ul class="pagination pagination-blog">
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#" tabindex="-1">1</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">...</a></li>
+                    <li class="page-item"><a class="page-link" href="#">8</a></li>
+                    <li class="page-item"><a class="page-link" href="#">9</a></li>
+                    <li class="page-item"><a class="page-link" href="#">10</a></li>
+                </ul>
+                </nav>
+       </section>
+    </main>
+    <footer>
+        <div class="home-padding-small">
+            <div class="footer-title">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#"><img src="img/icon-fb.png" class="footer-title-margin"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <img src="img/icon-seach1-before.png">
+                        </div>
+                        <div class="col-sm-4 text-right">
+                            <a href="#"><img src="img/icon-paypal.png" alt="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-address">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 text-center">
+                            <div class="footer-address__section">
+                                <img src="img/icon-tele-footer.png">
+                                <p class="font-weight-bold">Điện Thoại</p>
+                                <p class="font-size-14px">0122 . 222 . 4002</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <div class="footer-address__section">
+                                <img src="img/icon-locat-footer.png">
+                                <p class="font-weight-bold">Địa Chỉ</p>
+                                <p class="font-size-14px">29/29 Đoàn Thị Điểm, Phường 1 Quận Phú Nhuận, TP.HCM</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <div class="footer-address__section">
+                                <img src="img/icon-email-footer.png">
+                                <p class="font-weight-bold">Email</p>
+                                <p class="font-size-14px">shopthao@sample.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-info text-center">
+                <p>© shophangnhat 2018 All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

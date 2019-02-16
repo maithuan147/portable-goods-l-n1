@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>personal-page</title>
+</head>
+<body>
+    <header>
+        <div class="header-home-user">
+            <div class="home-padding">
+                <p class="home-header--icon-telephone-before"> &nbsp;0122.222.4002</p>
+                <p class="home-header--icon-location-before"> &nbsp;29/29 Đoàn Thị Điểm, P.1, Q, Phú Nhuận, TP.HCM</p>
+                <a href="#""><img src="img/icon-name-before.png" class="icon-name-before">Anthony Nguyễn</a>
+            </div>
+        </div>
+        <div class="header-home-seach">
+            <div class="home-padding">
+                <form class="home-use">
+                    <div id="change-password" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="container-fluid">
+                                    <a href="#" class="closebtn">×</a>
+                                    <div class="input--margin-top form-group">
+                                        <h5>Thay đổi mật khẩu</h5>
+                                        <div class="bog__seciton--boder-bottom"></div>
+                                        <div class="form-group">
+                                            <label for="inputAddress">Mật khẩu cũ</label>
+                                            <input type="email" class="form-control" id="inputAddress" placeholder="Vui vòng điền vào đây...">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputEmail4">Mật khẩu mới</label>
+                                            <input type="text" class="form-control" id="inputEmail4" placeholder="Vui vòng điền vào đây...">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputPassword4">Xác nhận mật khẩu</label>
+                                            <input type="text" class="form-control" id="inputPassword4" placeholder="Vui vòng điền vào đây...">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary personal-page-btn2">Cập nhật thông tin</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <form class="home-use">
+                    <div id="add-address" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="container-fluid">
+                                    <a href="#" class="closebtn">×</a>
+                                    <div class="input--margin-top form-group">
+                                        <h5>Thêm địa chỉ mới</h5>
+                                        <div class="bog__seciton--boder-bottom"></div>
+                                            <div class="form-group">
+                                                <label for="inputAddress">Họ và tên</label>
+                                                <input type="text" class="form-control" id="inputAddress" placeholder="Anthony Nguyễn">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="inputEmail4">Số điện thoại</label>
+                                                <input type="text" class="form-control" id="inputEmail4" placeholder="(+84) 674 0204 02">
+                                            </div>
+                                            <label for="inputState">Tỉnh / Thành phố</label>
+                                                <select id="inputState" class="form-control">
+                                                    <option selected>Vui lòng chọn</option>
+                                                    <option>...</option>
+                                                </select>
+                                            <label for="inputState">QUận / Huyện</label>
+                                                <select id="inputState" class="form-control">
+                                                    <option selected>Vui lòng chọn</option>
+                                                    <option>...</option>
+                                                </select>
+                                       </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary personal-page-btn2">Thêm địa chỉ</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <form class="home-use">
+                    <div id="update-address" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="container-fluid">
+                                    <a href="#" class="closebtn">×</a>
+                                    <div class="input--margin-top form-group">
+                                        <h5>Cập nhật địa chỉ</h5>
+                                        <div class="bog__seciton--boder-bottom"></div>
+                                            <div class="form-group">
+                                                <label for="inputAddress">Họ và tên</label>
+                                                <input type="text" class="form-control" id="inputAddress" placeholder="Anthony Nguyễn">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="inputEmail4">Số điện thoại</label>
+                                                <input type="text" class="form-control" id="inputEmail4" placeholder="(+84) 674 0204 02">
+                                            </div>
+                                            <label for="inputState">Tỉnh / Thành phố</label>
+                                                <select id="inputState" class="form-control">
+                                                    <option selected>Vui lòng chọn</option>
+                                                    <option>...</option>
+                                                </select>
+                                            <label for="inputState">QUận / Huyện</label>
+                                                <select id="inputState" class="form-control">
+                                                    <option selected>Vui lòng chọn</option>
+                                                    <option>...</option>
+                                                </select>
+                                       </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary personal-page-btn2">Hoàn thành cập nhật</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="home-header-bg--icon-seach1 float-left">
+                </div>
+                <div class="home-header-bg--icon-seach1__section float-left">
+                    <h3>Shop Hàng Nhật</h3>
+                    <p>Chuyên Hàng Nội Địa Nhật Bản</p>
+                </div>
+                <div class="nav-item dropdown float-left">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tất cả danh mục</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#one">one</a>
+                        <a class="dropdown-item" href="#two">two</a>
+                        <a class="dropdown-item" href="#three">three</a>
+                    </div>
+                </div>
+                <div class="search-container float-left">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="cart float-right">
+                    <div class="cart--color-white">
+                        <p class="home--color-white"> - 2 món</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="row home-padding">
+                    <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link home--color-pink" href="file:///C:/xampp/htdocs/portable-goods/portable-goods.html">Trang chủ</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="file:///C:/xampp/htdocs/portable-goods/introduce.html">Gioi thiệu</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="file:///C:/xampp/htdocs/portable-goods/shop.html">Cửa Hàng</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="file:///C:/xampp/htdocs/portable-goods/blog.html#">Tư Vấn</a>
+                          </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <section class="personal-page__section">
+            <div class="home-padding">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><img src="img/icon-personal-page2.png"> Thông tin</a>
+                                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><img src="img/icon-personal-page1.png"> Địa chỉ</a>
+                                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><img src="img/icon-personal-page3.png"> Lịch sử</a>
+                                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><img src="img/icon-personal-page4.png"> Yêu thích</a>
+                            </div>
+                            <a class="nav-link logout" id="v-pills-settings-tab"  href="file:///C:/xampp/htdocs/portable-goods/portable-goods.html" role="tab"><img src="img/icon-logout.png"> Đăng xuất</a>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                    <div class="personal-page__section-info">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-sm-7">
+                                                    <h3>Thông tin cơ bản</h3>
+                                                    <form>
+                                                        <div class="form-group">
+                                                            <label for="inputAddress">EMAIL</label>
+                                                            <input type="email" class="form-control" id="inputAddress" placeholder="anthonynguye@sample.com">
+                                                        </div>
+                                                    <div class="form-row">
+                                                        <div class="form-group col-md-6">
+                                                            <label for="inputEmail4">TÊN</label>
+                                                            <input type="text" class="form-control" id="inputEmail4" placeholder="Anthony">
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                            <label for="inputPassword4">HỌ</label>
+                                                            <input type="text" class="form-control" id="inputPassword4" placeholder="Nguyễn">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row">
+                                                        <div class="form-group col-md-9">
+                                                            <label for="inputCity">PASSWORD</label>
+                                                            <input type="password" class="form-control" id="inputCity" placeholder="●●●●●●●●●●●">
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <button type="submit" class="btn btn-primary personal-page-btn1"><a href="#change-password">Đổi Mật Khẩu</a>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                      <button type="submit" class="btn btn-primary personal-page-btn2">Cập nhật thông tin</button>
+                                                    </form>
+                                                </div>
+                                                <div class="col-sm-5">
+                                                    <div class="botrong home-heght-center">
+                                                        <form>
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlFile1">Kéo ảnh vào đây hoặc</label>
+                                                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                    <div class="personal-page__address">
+                                        <div class="container-fluid"> 
+                                            <div class="personal-page__address-title">
+                                                <div class="row">
+                                                    <div class="col-sm-10">
+                                                        <h4>Địa chỉ giao hàng</h4>
+                                                    </div>
+                                                    <div class="col-sm-2">
+                                                        <p><a href="#add-address" class="home--color-pink">+ Thêm địa chỉ mới</p></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="personal-page__address-section">
+                                                <div class="row">
+                                                    <div class="col-sm-10">
+                                                        <p class="font-weight-bold">Anthony Nguyễn</p>
+                                                        <p>12/28/10 Bùi Thị Xuân, P.2, Q.Tân Bình, TP.HCM</p>
+                                                        <p>Điện Thoại: 0376847365</p>
+                                                    </div>
+                                                    <div class="col-sm-2">
+                                                        <button><a href="#update-address">Sửa</a></button>
+                                                        <button class="home--color-pink">Xóa</button>
+                                                    </div>
+                                                </div>
+                                                <div class="bog__seciton--boder-bottom"></div>
+                                                <div class="row">
+                                                    <div class="col-sm-10">
+                                                        <p class="font-weight-bold">Anthony Nguyễn</p>
+                                                        <p>12/28/10 Bùi Thị Xuân, P.2, Q.Tân Bình, TP.HCM</p>
+                                                        <p>Điện Thoại: 0376847365</p>
+                                                    </div>
+                                                    <div class="col-sm-2">
+                                                        <button><a href="#update-address">Sửa</a></button>
+                                                        <button class="home--color-pink">Xóa</button>
+                                                    </div>
+                                                </div>
+                                                <div class="bog__seciton--boder-bottom"></div>
+                                                <div class="row">
+                                                    <div class="col-sm-10">
+                                                        <p class="font-weight-bold">Anthony Nguyễn</p>
+                                                        <p>12/28/10 Bùi Thị Xuân, P.2, Q.Tân Bình, TP.HCM</p>
+                                                        <p>Điện Thoại: 0376847365</p>
+                                                    </div>
+                                                    <div class="col-sm-2">
+                                                        <button><a href="#update-address">Sửa</a></button>
+                                                        <button class="home--color-pink">Xóa</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="home-padding-small">
+            <div class="footer-title">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#"><img src="img/icon-fb.png" class="footer-title-margin"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <img src="img/icon-seach1-before.png">
+                        </div>
+                        <div class="col-sm-4 text-right">
+                            <a href="#"><img src="img/icon-paypal.png" alt="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-address">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 text-center">
+                            <div class="footer-address__section">
+                                <img src="img/icon-tele-footer.png">
+                                <p class="font-weight-bold">Điện Thoại</p>
+                                <p class="font-size-14px">0122 . 222 . 4002</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <div class="footer-address__section">
+                                <img src="img/icon-locat-footer.png">
+                                <p class="font-weight-bold">Địa Chỉ</p>
+                                <p class="font-size-14px">29/29 Đoàn Thị Điểm, Phường 1 Quận Phú Nhuận, TP.HCM</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <div class="footer-address__section">
+                                <img src="img/icon-email-footer.png">
+                                <p class="font-weight-bold">Email</p>
+                                <p class="font-size-14px">shopthao@sample.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-info text-center">
+                <p>© shophangnhat 2018 All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
